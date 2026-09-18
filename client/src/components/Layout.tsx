@@ -2,7 +2,7 @@ import { Link, useLocation } from "wouter";
 import { useState } from "react";
 import { Menu, X, BookOpen } from "lucide-react";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/DFVUKAcoDGjab34rQHvoTT/logo-sonoran-JxLuLtwfQmgKVbofq6m2VA.webp";
+const LOGO_URL = "https://pub-7eda3ce30b9e4f7cab8f3a02581b0570.r2.dev/logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Layout({ children }: { children: React.ReactNode }) {

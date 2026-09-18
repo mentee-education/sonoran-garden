@@ -1,11 +1,11 @@
 import AlmanacLayout, { Section } from "@/components/AlmanacLayout";
 import { SeasonIntro, RecipeCard, ArticleBlock, ActivityBlock } from "@/components/ContentBlocks";
 
-const SPRING_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/DFVUKAcoDGjab34rQHvoTT/season-spring-e9b6hvSmPFkV5rjTqmVeSp.webp";
-const FALL_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/DFVUKAcoDGjab34rQHvoTT/season-fall-3RuscjoYkzESmg6xFMkiBJ.webp";
-const MONSOON_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/DFVUKAcoDGjab34rQHvoTT/season-monsoon-UnyKj49oPXMMejfrGeiCV5.webp";
-const WINTER_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/DFVUKAcoDGjab34rQHvoTT/season-winter-fpj96QYnLQ3yciFtg4Qfbd.webp";
-const DRYSUMMER_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663407421710/DFVUKAcoDGjab34rQHvoTT/season-drysummer-AjYHyLGSnqJbfwhfMSQyhG.webp";
+const SPRING_IMG = "https://pub-7eda3ce30b9e4f7cab8f3a02581b0570.r2.dev/spring.png";
+const FALL_IMG = "https://pub-7eda3ce30b9e4f7cab8f3a02581b0570.r2.dev/fall.png";
+const MONSOON_IMG = "https://pub-7eda3ce30b9e4f7cab8f3a02581b0570.r2.dev/monsoon.png";
+const WINTER_IMG = "https://pub-7eda3ce30b9e4f7cab8f3a02581b0570.r2.dev/winter.png";
+const DRYSUMMER_IMG = "https://pub-7eda3ce30b9e4f7cab8f3a02581b0570.r2.dev/drysummer.png";
 
 const sections: Section[] = [
   { id: "intro", title: "Introduction", icon: "📖" },
